@@ -11,6 +11,7 @@ export class App {
   protected title = 'basics';
 
   protected name = 'Luis';
+  protected imgURL = 'https://picsum.photos/id/237/500/500';
 
   getName() {
     return this.name;
