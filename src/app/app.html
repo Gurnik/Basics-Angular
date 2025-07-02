@@ -1,6 +1,6 @@
 <input (keyup)="changeImage($event)" [value]="imgURL" />
 
-<app-post [img]="imgURL"></app-post>
+<app-post [img]="imgURL" (imgSelected)="logImg($event)"></app-post>
 
 <p>Hello {{ name.toLocaleUpperCase() }}</p>
 <p>Hello {{ getName() }}</p>
