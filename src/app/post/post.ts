@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-post',
   imports: [],
   templateUrl: './post.html',
-  styleUrl: './post.css'
+  styleUrl: './post.css',
 })
 export class Post {
-
+  @Input() postImg = '';
 }
