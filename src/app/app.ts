@@ -22,6 +22,7 @@ export class App {
     size: 'large',
   };
   blueClass = false;
+  fontSize = 16;
 
   getName() {
     return this.name;
