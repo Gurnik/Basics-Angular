@@ -17,6 +17,10 @@ export class App {
   protected currentDate = new Date();
   protected cost = 2000;
   protected temperature = 25.3;
+  protected pizza = {
+    toppings: ['pepperoni', 'bacon'],
+    size: 'large',
+  };
 
   getName() {
     return this.name;
