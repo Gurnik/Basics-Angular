@@ -14,6 +14,7 @@ export class App {
 
   protected name = 'daniel kandalaft';
   protected imgURL = 'https://picsum.photos/id/237/500/500';
+  protected currentDate = new Date();
 
   getName() {
     return this.name;
