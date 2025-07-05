@@ -14,6 +14,11 @@ export class App {
 
   protected name = 'daniel kandalaft';
   protected imgURL = 'https://picsum.photos/id/237/500/500';
+  images = [
+    'https://picsum.photos/id/237/500/500',
+    'https://picsum.photos/id/237/500/500',
+    'https://picsum.photos/id/237/500/500',
+  ];
   protected currentDate = new Date();
   protected cost = 2000;
   protected temperature = 25.3;
